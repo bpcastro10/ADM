@@ -1,0 +1,134 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Desarrollador Backend Senior (Python)",
+      "description": "Buscamos un desarrollador backend con experiencia en Python para diseñar, implementar y mantener APIs REST escalables. Trabajarás en un equipo ágil, colaborando con producto y frontend. El rol incluye revisiones de código, definición de estándares y mentoría a perfiles junior.",
+      "soughtCharacteristics": [
+        {
+          "name": "Python y frameworks web",
+          "description": "Mínimo 3 años desarrollando APIs con FastAPI, Django REST o Flask."
+        },
+        {
+          "name": "Bases de datos",
+          "description": "Experiencia con PostgreSQL o MySQL: modelado, consultas y optimización básica."
+        },
+        {
+          "name": "Pruebas automatizadas",
+          "description": "Uso de pytest o unittest; cobertura en servicios críticos."
+        },
+        {
+          "name": "Git y CI/CD",
+          "description": "Flujo con ramas, pull requests y pipelines (GitHub Actions, GitLab CI u otro)."
+        },
+        {
+          "name": "Comunicación técnica",
+          "description": "Capacidad de documentar decisiones y presentar soluciones al equipo."
+        },
+        {
+          "name": "Trabajo en equipo ágil",
+          "description": "Experiencia en Scrum o Kanban; estimación y entrega iterativa."
+        }
+      ]
+    },
+    {
+      "title": "Desarrollador java",
+      "description": "Desarrollador Java con experiencia en diseño, desarrollo e implementación de aplicaciones empresariales utilizando tecnologías Java y frameworks modernos. Capacidad para desarrollar APIs REST, microservicios y soluciones escalables, aplicando buenas prácticas de programación, seguridad y optimización de rendimiento. Con conocimientos en bases de datos relacionales y no relacionales, integración de servicios, control de versiones y metodologías ágiles. Orientado a la resolución de problemas, trabajo en equipo y mejora continua de procesos tecnológicos.",
+      "soughtCharacteristics": [
+        {
+          "name": "Desarrollo Backend",
+          "description": "Capacidad para desarrollar aplicaciones y servicios backend robustos utilizando Java, Spring Boot y arquitecturas escalables orientadas a microservicios."
+        },
+        {
+          "name": "Integración de APIs",
+          "description": "Experiencia en creación e integración de APIs RESTful para la comunicación entre sistemas y aplicaciones empresariales."
+        },
+        {
+          "name": "Gestión de Bases de Datos",
+          "description": "Conocimiento en manejo y optimización de bases de datos relacionales y no relacionales como MySQL, PostgreSQL y MongoDB."
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "technicalTests": [
+    {
+      "id": 1,
+      "jobId": 1,
+      "title": "Prueba técnica: API REST de tareas",
+      "brief": "Implementa una API REST mínima para gestionar tareas (CRUD). Debe incluir validación de entrada, manejo de errores HTTP coherente y estructura de proyecto clara. Puedes usar FastAPI, Flask o el framework que prefieras dentro de Python.",
+      "defaultLanguage": "python",
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable, código vacío o sin relación con el enunciado.",
+          "1": "Deficiente: no cumple lo mínimo del criterio.",
+          "2": "Insuficiente: cumple parcialmente con errores graves.",
+          "3": "Aceptable: cumple lo esencial con mejoras claras pendientes.",
+          "4": "Bueno: cumple de forma sólida con detalles menores.",
+          "5": "Excelente: cumplimiento destacado del criterio."
+        },
+        "criteria": [
+          {
+            "name": "Legibilidad del código",
+            "description": "Nombres descriptivos, funciones acotadas, comentarios solo donde aporten valor."
+          },
+          {
+            "name": "Buenas prácticas",
+            "description": "Separación de capas, convenciones del lenguaje, ausencia de código muerto o duplicado."
+          },
+          {
+            "name": "Eficiencia",
+            "description": "Complejidad razonable, uso adecuado de estructuras de datos y consultas."
+          },
+          {
+            "name": "Manejo de errores",
+            "description": "Validaciones, respuestas HTTP correctas (4xx/5xx) y mensajes útiles."
+          },
+          {
+            "name": "Cumplimiento del enunciado",
+            "description": "Endpoints CRUD funcionales, modelo de tarea coherente y requisitos del brief cubiertos."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Desarrollador java",
+      "brief": "Desarrollar una aplicación backend en Java utilizando Spring Boot que permita gestionar usuarios y tareas. La aplicación deberá exponer APIs REST para crear, listar, actualizar y eliminar registros, implementando validaciones, manejo de excepciones y conexión a una base de datos relacional. Además, se evaluará el uso de buenas prácticas de programación, estructura del proyecto, documentación del código y manejo de control de versiones con Git.",
+      "defaultLanguage": "java",
+      "jobId": 2,
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable o sin relación con el enunciado Java/Spring.",
+          "1": "Deficiente: funcionalidad o criterio muy por debajo de lo pedido.",
+          "2": "Insuficiente: avance parcial con fallas importantes.",
+          "3": "Aceptable: requisitos centrales cubiertos con deuda técnica.",
+          "4": "Bueno: implementación sólida con ajustes menores.",
+          "5": "Excelente: solución completa y bien ejecutada."
+        },
+        "criteria": [
+          {
+            "name": "Funcionalidad",
+            "description": "La aplicación cumple correctamente con los requisitos solicitados y las APIs funcionan adecuadamente."
+          },
+          {
+            "name": "Calidad del Código",
+            "description": "El código es limpio, organizado y aplica buenas prácticas de desarrollo en Java."
+          },
+          {
+            "name": "Manejo de Base de Datos",
+            "description": "Correcta implementación de persistencia de datos y consultas en la base de datos."
+          },
+          {
+            "name": "Manejo de Errores y Validaciones",
+            "description": "Validaciones y manejo de excepciones implementados correctamente en la API."
+          },
+          {
+            "name": "Uso de Git y Documentación",
+            "description": "Uso adecuado de Git y documentación clara para instalación y ejecución del proyecto."
+          }
+        ]
+      },
+      "id": 2
+    }
+  ]
+}
