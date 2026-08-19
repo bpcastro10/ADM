@@ -1,0 +1,322 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Desarrollador Backend Senior (Python)",
+      "description": "Buscamos un desarrollador backend con experiencia en Python para diseñar, implementar y mantener APIs REST escalables. Trabajarás en un equipo ágil, colaborando con producto y frontend. El rol incluye revisiones de código, definición de estándares y mentoría a perfiles junior.",
+      "soughtCharacteristics": [
+        {
+          "name": "Python y frameworks web",
+          "description": "Mínimo 3 años desarrollando APIs con FastAPI, Django REST o Flask."
+        },
+        {
+          "name": "Bases de datos",
+          "description": "Experiencia con PostgreSQL o MySQL: modelado, consultas y optimización básica."
+        },
+        {
+          "name": "Pruebas automatizadas",
+          "description": "Uso de pytest o unittest; cobertura en servicios críticos."
+        },
+        {
+          "name": "Git y CI/CD",
+          "description": "Flujo con ramas, pull requests y pipelines (GitHub Actions, GitLab CI u otro)."
+        },
+        {
+          "name": "Comunicación técnica",
+          "description": "Capacidad de documentar decisiones y presentar soluciones al equipo."
+        },
+        {
+          "name": "Trabajo en equipo ágil",
+          "description": "Experiencia en Scrum o Kanban; estimación y entrega iterativa."
+        }
+      ]
+    },
+    {
+      "title": "Desarrollador java",
+      "description": "Desarrollador Java con experiencia en diseño, desarrollo e implementación de aplicaciones empresariales utilizando tecnologías Java y frameworks modernos. Capacidad para desarrollar APIs REST, microservicios y soluciones escalables, aplicando buenas prácticas de programación, seguridad y optimización de rendimiento. Con conocimientos en bases de datos relacionales y no relacionales, integración de servicios, control de versiones y metodologías ágiles. Orientado a la resolución de problemas, trabajo en equipo y mejora continua de procesos tecnológicos.",
+      "soughtCharacteristics": [
+        {
+          "name": "Desarrollo Backend",
+          "description": "Capacidad para desarrollar aplicaciones y servicios backend robustos utilizando Java, Spring Boot y arquitecturas escalables orientadas a microservicios."
+        },
+        {
+          "name": "Integración de APIs",
+          "description": "Experiencia en creación e integración de APIs RESTful para la comunicación entre sistemas y aplicaciones empresariales."
+        },
+        {
+          "name": "Gestión de Bases de Datos",
+          "description": "Conocimiento en manejo y optimización de bases de datos relacionales y no relacionales como MySQL, PostgreSQL y MongoDB."
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "technicalTests": [
+    {
+      "id": 1,
+      "jobId": 1,
+      "title": "Prueba técnica: API REST de tareas",
+      "brief": "Implementa una API REST mínima para gestionar tareas (CRUD). Debe incluir validación de entrada, manejo de errores HTTP coherente y estructura de proyecto clara. Puedes usar FastAPI, Flask o el framework que prefieras dentro de Python.",
+      "defaultLanguage": "python",
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable, código vacío o sin relación con el enunciado.",
+          "1": "Deficiente: no cumple lo mínimo del criterio.",
+          "2": "Insuficiente: cumple parcialmente con errores graves.",
+          "3": "Aceptable: cumple lo esencial con mejoras claras pendientes.",
+          "4": "Bueno: cumple de forma sólida con detalles menores.",
+          "5": "Excelente: cumplimiento destacado del criterio."
+        },
+        "criteria": [
+          {
+            "name": "Legibilidad del código",
+            "description": "Nombres descriptivos, funciones acotadas, comentarios solo donde aporten valor."
+          },
+          {
+            "name": "Buenas prácticas",
+            "description": "Separación de capas, convenciones del lenguaje, ausencia de código muerto o duplicado."
+          },
+          {
+            "name": "Eficiencia",
+            "description": "Complejidad razonable, uso adecuado de estructuras de datos y consultas."
+          },
+          {
+            "name": "Manejo de errores",
+            "description": "Validaciones, respuestas HTTP correctas (4xx/5xx) y mensajes útiles."
+          },
+          {
+            "name": "Cumplimiento del enunciado",
+            "description": "Endpoints CRUD funcionales, modelo de tarea coherente y requisitos del brief cubiertos."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Desarrollador java",
+      "brief": "Desarrollar una aplicación backend en Java utilizando Spring Boot que permita gestionar usuarios y tareas. La aplicación deberá exponer APIs REST para crear, listar, actualizar y eliminar registros, implementando validaciones, manejo de excepciones y conexión a una base de datos relacional. Además, se evaluará el uso de buenas prácticas de programación, estructura del proyecto, documentación del código y manejo de control de versiones con Git.",
+      "defaultLanguage": "java",
+      "jobId": 2,
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable o sin relación con el enunciado Java/Spring.",
+          "1": "Deficiente: funcionalidad o criterio muy por debajo de lo pedido.",
+          "2": "Insuficiente: avance parcial con fallas importantes.",
+          "3": "Aceptable: requisitos centrales cubiertos con deuda técnica.",
+          "4": "Bueno: implementación sólida con ajustes menores.",
+          "5": "Excelente: solución completa y bien ejecutada."
+        },
+        "criteria": [
+          {
+            "name": "Funcionalidad",
+            "description": "La aplicación cumple correctamente con los requisitos solicitados y las APIs funcionan adecuadamente."
+          },
+          {
+            "name": "Calidad del Código",
+            "description": "El código es limpio, organizado y aplica buenas prácticas de desarrollo en Java."
+          },
+          {
+            "name": "Manejo de Base de Datos",
+            "description": "Correcta implementación de persistencia de datos y consultas en la base de datos."
+          },
+          {
+            "name": "Manejo de Errores y Validaciones",
+            "description": "Validaciones y manejo de excepciones implementados correctamente en la API."
+          },
+          {
+            "name": "Uso de Git y Documentación",
+            "description": "Uso adecuado de Git y documentación clara para instalación y ejecución del proyecto."
+          }
+        ]
+      },
+      "id": 2
+    },
+    {
+      "title": "Analista de Datos – Limpieza, Análisis y Visualización",
+      "brief": "Evaluar la capacidad del candidato para limpiar, analizar y visualizar datos, así como comunicar hallazgos de negocio. Duración: 4 horas. Herramientas permitidas: Python (Pandas, NumPy, Matplotlib/Plotly), SQL, Excel y Power BI/Tableau. Actividades: 1) Limpieza de datos (20%), 2) Consultas SQL (25%), 3) Análisis exploratorio y métricas (25%), 4) Dashboard con indicadores (20%), 5) Informe ejecutivo con recomendaciones (10%). Entregables: Script SQL, Notebook o código Python, Dashboard, e Informe PDF de 1–2 páginas.",
+      "defaultLanguage": "python",
+      "jobId": null,
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable o sin relación con el enunciado.",
+          "1": "Deficiente: no cumple lo mínimo del criterio.",
+          "2": "Insuficiente: cumple parcialmente con errores graves.",
+          "3": "Aceptable: cumple lo esencial con mejoras claras pendientes.",
+          "4": "Bueno: cumple de forma sólida con detalles menores.",
+          "5": "Excelente: cumplimiento destacado del criterio."
+        },
+        "criteria": [
+          {
+            "name": "Limpieza de datos",
+            "description": "Capacidad para identificar y corregir datos inconsistentes, valores nulos, duplicados y anomalías. Aplicación de técnicas apropiadas de preprocesamiento."
+          },
+          {
+            "name": "Consultas SQL",
+            "description": "Correctitud y eficiencia de las consultas SQL. Uso adecuado de joins, agregaciones, filtros y subconsultas para extraer información relevante."
+          },
+          {
+            "name": "Análisis exploratorio y métricas",
+            "description": "Profundidad del análisis exploratorio, cálculo correcto de métricas de negocio, identificación de patrones y tendencias significativas en los datos."
+          },
+          {
+            "name": "Dashboard con indicadores",
+            "description": "Diseño efectivo del dashboard, selección apropiada de visualizaciones, claridad de los indicadores clave y facilidad de interpretación."
+          },
+          {
+            "name": "Informe ejecutivo y recomendaciones",
+            "description": "Claridad en la comunicación de hallazgos, calidad de las recomendaciones de negocio, síntesis efectiva y orientación a resultados."
+          },
+          {
+            "name": "Calidad técnica y buenas prácticas",
+            "description": "Código limpio, organizado y documentado. Uso de convenciones, comentarios explicativos, estructura lógica y reproducibilidad del análisis."
+          },
+          {
+            "name": "Exactitud y precisión",
+            "description": "Corrección en los cálculos, validación de resultados, manejo apropiado de casos especiales y ausencia de errores lógicos o matemáticos."
+          }
+        ]
+      },
+      "id": 3
+    },
+    {
+      "title": "Analista de Datos - Limpieza, Análisis y Visualización",
+      "brief": "Evaluar la capacidad del candidato para limpiar, analizar y visualizar datos, así como comunicar hallazgos de negocio. Duración: 4 horas. Herramientas permitidas: Python (Pandas, NumPy, Matplotlib/Plotly), SQL, Excel y Power BI/Tableau. Actividades: 1) Limpieza de datos (20%), 2) Consultas SQL (25%), 3) Análisis exploratorio y métricas (25%), 4) Dashboard con indicadores (20%), 5) Informe ejecutivo con recomendaciones (10%). Entregables: Script SQL, Notebook o código Python, Dashboard, Informe PDF de 1-2 páginas.",
+      "defaultLanguage": "python",
+      "jobId": null,
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable o sin relación con el enunciado.",
+          "1": "Deficiente: no cumple lo mínimo del criterio.",
+          "2": "Insuficiente: cumple parcialmente con errores graves.",
+          "3": "Aceptable: cumple lo esencial con mejoras claras pendientes.",
+          "4": "Bueno: cumple de forma sólida con detalles menores.",
+          "5": "Excelente: cumplimiento destacado del criterio."
+        },
+        "criteria": [
+          {
+            "name": "Limpieza de datos",
+            "description": "Capacidad para identificar y corregir problemas de calidad de datos: valores nulos, duplicados, inconsistencias, normalización y transformación apropiada de datos (20%)"
+          },
+          {
+            "name": "Consultas SQL",
+            "description": "Dominio de SQL para extraer y manipular datos: correctitud de las queries, uso de joins, agregaciones, subconsultas y optimización (25%)"
+          },
+          {
+            "name": "Análisis exploratorio y métricas",
+            "description": "Capacidad de realizar análisis exploratorio de datos (EDA), calcular métricas relevantes, identificar patrones, tendencias y generar insights significativos (25%)"
+          },
+          {
+            "name": "Dashboard con indicadores",
+            "description": "Diseño y construcción de dashboard efectivo con indicadores clave (KPIs), visualizaciones claras, interactividad apropiada y diseño intuitivo (20%)"
+          },
+          {
+            "name": "Informe ejecutivo y recomendaciones",
+            "description": "Calidad del informe ejecutivo: claridad en la comunicación de hallazgos, recomendaciones accionables basadas en datos, síntesis efectiva y enfoque en valor de negocio (10%)"
+          },
+          {
+            "name": "Calidad técnica y buenas prácticas",
+            "description": "Código limpio y bien estructurado, documentación adecuada, comentarios pertinentes, uso de convenciones de nombrado y organización lógica del trabajo"
+          },
+          {
+            "name": "Exactitud y precisión",
+            "description": "Precisión en los cálculos, correctitud de los resultados, validación de datos y atención al detalle en todas las entregas"
+          }
+        ]
+      },
+      "id": 4
+    },
+    {
+      "title": "Prueba Técnica – Analista de Datos",
+      "brief": "Evaluar la capacidad del candidato para limpiar, analizar y visualizar datos, así como comunicar hallazgos de negocio. Duración: 4 horas. Herramientas permitidas: Python (Pandas, NumPy, Matplotlib/Plotly), SQL, Excel y Power BI/Tableau.\n\nActividades:\n1. Limpieza de datos (20%)\n2. Consultas SQL (25%)\n3. Análisis exploratorio y métricas (25%)\n4. Dashboard con indicadores (20%)\n5. Informe ejecutivo con recomendaciones (10%)\n\nEntregables:\n- Script SQL\n- Notebook o código Python\n- Dashboard\n- Informe PDF de 1–2 páginas",
+      "defaultLanguage": "python",
+      "jobId": 2,
+      "rubric": {
+        "scoreScale": {
+          "0": "Sin entrega evaluable o sin relación con el enunciado.",
+          "1": "Deficiente: no cumple lo mínimo del criterio.",
+          "2": "Insuficiente: cumple parcialmente con errores graves.",
+          "3": "Aceptable: cumple lo esencial con mejoras claras pendientes.",
+          "4": "Bueno: cumple de forma sólida con detalles menores.",
+          "5": "Excelente: cumplimiento destacado del criterio."
+        },
+        "criteria": [
+          {
+            "name": "Limpieza de datos",
+            "description": "Capacidad para identificar y corregir datos faltantes, duplicados, inconsistencias y outliers. Aplicación de técnicas apropiadas de preprocesamiento y transformación de datos."
+          },
+          {
+            "name": "Consultas SQL",
+            "description": "Escritura de queries SQL eficientes y correctas. Uso apropiado de joins, agregaciones, filtros y funciones para extraer información relevante de bases de datos."
+          },
+          {
+            "name": "Análisis exploratorio y métricas",
+            "description": "Realización de análisis estadístico descriptivo, identificación de patrones y tendencias, cálculo de métricas de negocio relevantes y aplicación de técnicas exploratorias adecuadas."
+          },
+          {
+            "name": "Dashboard e indicadores",
+            "description": "Creación de visualizaciones claras, efectivas y profesionales. Diseño de dashboard intuitivo con KPIs relevantes que faciliten la toma de decisiones."
+          },
+          {
+            "name": "Informe ejecutivo",
+            "description": "Comunicación clara y concisa de hallazgos. Capacidad para traducir resultados técnicos en recomendaciones de negocio accionables y presentarlas de forma ejecutiva."
+          },
+          {
+            "name": "Calidad técnica y buenas prácticas",
+            "description": "Código limpio, documentado y organizado. Uso de convenciones de nomenclatura, comentarios apropiados, estructura lógica y aplicación de estándares de la industria."
+          },
+          {
+            "name": "Exactitud y precisión",
+            "description": "Corrección en cálculos, transformaciones y resultados. Validación apropiada de datos y verificación de la consistencia de los análisis realizados."
+          }
+        ]
+      },
+      "id": 5
+    },
+    {
+      "title": "Analista de Datos - Limpieza, Análisis y Visualización",
+      "brief": "Evaluar la capacidad del candidato para limpiar, analizar y visualizar datos, así como comunicar hallazgos de negocio. Duración: 4 horas. Herramientas permitidas: Python (Pandas, NumPy, Matplotlib/Plotly), SQL, Excel y Power BI/Tableau.\n\nActividades:\n1. Limpieza de datos (20%)\n2. Consultas SQL (25%)\n3. Análisis exploratorio y métricas (25%)\n4. Dashboard con indicadores (20%)\n5. Informe ejecutivo con recomendaciones (10%)\n\nEntregables:\n- Script SQL\n- Notebook o código Python\n- Dashboard\n- Informe PDF de 1–2 páginas",
+      "defaultLanguage": "python",
+      "jobId": null,
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Limpieza de datos",
+            "description": "Capacidad para identificar y corregir inconsistencias, valores nulos, duplicados y errores en los datos. Aplicación de técnicas de preprocesamiento adecuadas (20%)"
+          },
+          {
+            "name": "Consultas SQL",
+            "description": "Correctitud y eficiencia de las consultas SQL. Uso apropiado de joins, agregaciones, filtros y subconsultas para extraer información relevante (25%)"
+          },
+          {
+            "name": "Análisis exploratorio y métricas",
+            "description": "Realización de análisis exploratorio de datos (EDA) identificando patrones, tendencias y métricas clave de negocio. Aplicación de estadística descriptiva y técnicas analíticas (25%)"
+          },
+          {
+            "name": "Dashboard con indicadores",
+            "description": "Diseño y construcción de un dashboard claro y efectivo con visualizaciones relevantes. Selección apropiada de gráficos e indicadores KPI que faciliten la toma de decisiones (20%)"
+          },
+          {
+            "name": "Informe ejecutivo y recomendaciones",
+            "description": "Capacidad para comunicar hallazgos de forma clara y concisa. Presentación de insights accionables y recomendaciones de negocio fundamentadas en el análisis (10%)"
+          },
+          {
+            "name": "Calidad técnica y buenas prácticas",
+            "description": "Código limpio, organizado y documentado. Uso de convenciones de nomenclatura, comentarios explicativos y estructura lógica en scripts y notebooks"
+          },
+          {
+            "name": "Exactitud y precisión",
+            "description": "Correctitud de los cálculos, transformaciones y resultados obtenidos. Verificación de la consistencia de los datos procesados"
+          }
+        ],
+        "scoreScale": {
+          "0": "Sin entrega evaluable o sin relación con el enunciado.",
+          "1": "Deficiente: no cumple lo mínimo del criterio.",
+          "2": "Insuficiente: cumple parcialmente con errores graves.",
+          "3": "Aceptable: cumple lo esencial con mejoras claras pendientes.",
+          "4": "Bueno: cumple de forma sólida con detalles menores.",
+          "5": "Excelente: cumplimiento destacado del criterio."
+        }
+      },
+      "id": 6
+    }
+  ]
+}
