@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+torch
+transformers>=4.45
+pillow
+pytesseract
+pypdfium2
+rapidocr-onnxruntime
